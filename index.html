@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+      color:#333;
+      line-height:1.6;
+    }
+
+    header{
+      background:#2c3e50;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    nav{
+      background:#34495e;
+      padding:12px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    nav a:hover{
+      color:#f1c40f;
+    }
+
+    .hero{
+      height:400px;
+      background:linear-gradient(to right, #3498db, #8e44ad);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    .hero h1{
+      font-size:50px;
+      margin-bottom:10px;
+    }
+
+    .hero p{
+      font-size:20px;
+      max-width:700px;
+    }
+
+    section{
+      padding:60px 20px;
+      text-align:center;
+    }
+
+    h2{
+      margin-bottom:30px;
+      color:#2c3e50;
+    }
+
+    .skills-container,
+    .portfolio-container{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:20px;
+    }
+
+    .card{
+      background:white;
+      width:250px;
+      padding:25px;
+      border-radius:12px;
+      box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .contact p{
+      margin:10px 0;
+      font-size:18px;
+    }
+
+    footer{
+      background:#2c3e50;
+      color:white;
+      text-align:center;
+      padding:15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>NGUYEN HUYNH HUY</h1>
+    <p>Web Developer & AI Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Introduction Section -->
+  <section class="hero" id="about">
+    <h1>Welcome to My Portfolio</h1>
+    <p>
+      I am a passionate developer specializing in web development,
+      artificial intelligence, and modern software solutions.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="card">
+        <h3>HTML & CSS</h3>
+        <p>Building responsive and modern web interfaces.</p>
+      </div>
+
+      <div class="card">
+        <h3>JavaScript</h3>
+        <p>Creating dynamic and interactive websites.</p>
+      </div>
+
+      <div class="card">
+        <h3>Artificial Intelligence</h3>
+        <p>Developing AI and machine learning applications.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+
+    <div class="portfolio-container">
+
+      <div class="card">
+        <h3>Project 1</h3>
+        <p>AI-powered chatbot for customer support.</p>
+      </div>
+
+      <div class="card">
+        <h3>Project 2</h3>
+        <p>Image super-resolution research project.</p>
+      </div>
+
+      <div class="card">
+        <h3>Project 3</h3>
+        <p>Personal portfolio website design.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Information</h2>
+
+    <p>Email: johndoe@email.com</p>
+    <p>Phone: +123 456 789</p>
+    <p>Location: Taiwan</p>
+  </section>
+
+  <footer>
+    <p>© 2026 NGUYEN HUYNH HUY | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
